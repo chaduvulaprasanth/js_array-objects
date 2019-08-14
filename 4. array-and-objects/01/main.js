@@ -11,6 +11,6 @@ myPenguin.favoriteFoods.push("smallfish");
 console.log(myPenguin.favoriteFoods.length);
 myPenguin.favoriteFoods[4] = "pineapples";
 var lastFavFood = myPenguin.favoriteFoods[myPenguin.favoriteFoods.length-1]
-for (var i =0; i<=myPenguin.favoriteFoods.length; i++) {
+for (var i =0; i <= myPenguin.favoriteFoods.length; i++) {
 	console.log(myPenguin.favoriteFoods[i])
 }
