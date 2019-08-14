@@ -38,17 +38,12 @@ penguins.push(myPenguin);
 console.log(penguins.length);
 penguins[0].canFly = true;
 penguins[0].sayHello()
-for (var i=0; i<= penguins.length; i++) {
-  console.log(penguins[i].name);
-}
-for (var i=0; i<=penguins.length; i++) {
-  console.log(penguins[i].sayHello());
-}
-for (var i=0; i<= penguins.length; i++) {
-  penguins[i].numberOfFeet = 2;
-}
-for (var i=0; i<=penguins.length; i++) {
-  if(penguins[i].canFly===true) {
-    console.log(`${penguins[i].name} can fly!`);
+for (let key in penguins) {
+  console.log(penguins[key].name);
+  console.log(penguins[key].sayHello());
+  penguins[key].numberOfFeet = 2;
+  if(penguins[key].canFly===true) {
+      console.log(`${penguins[i].name} can fly!`);
   }
 }
+
