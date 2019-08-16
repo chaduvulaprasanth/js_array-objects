@@ -45,4 +45,6 @@ var obj = {
 console.log(obj.city);
 
 // 10. Can you define a key of `let or var` in any object? Reason.
-
+var obj = {
+	var: "hi"
+}
